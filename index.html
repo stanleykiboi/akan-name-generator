@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- main container for the content -->
+    <div class="container">
+
+        <!-- heading for the application -->
+        <h1>Akan Name Generator</h1>
+
+        <!-- label for date input -->
+        <label>Date of Birth:</label>
+        <br>
+
+        <!-- input field to select date -->
+        <input type="date" id="dob">
+        <br>
+        <br>
+
+        <!-- gender selection label -->
+        <label>Gender:</label>
+        <br>
+
+        <!-- radio button for male -->
+        <input type="radio" name="gender" value="male"> Male
+        <br>
+
+        <!-- radio button for female -->
+        <input type="radio" name="gender" value="female"> Female
+        <br>
+        <br>
+
+        <!-- button to trigger javascript function -->
+        <button onclick="getAkanName()">Get Akan Name</button>
+
+        <!-- paragraph where result will be displayed -->
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+    
+</html>
